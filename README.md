@@ -1,5 +1,4 @@
-# Wifi-deauth-detector
-A safe, offline tool that scans pcap files to detect suspicious Wi‑Fi deauthentication/disassociation spikes.
+# wifi_deauth_detector
 
 ## Description
 A safe, offline Python library that scans Wi‑Fi packet captures (pcap files) to detect suspicious deauthentication and disassociation spikes.  
@@ -12,8 +11,11 @@ Intended for education, incident response, and authorized network analysis. **Do
 - Output a JSON report for further analysis
 
 ## Installation
+
+Clone the repository and install in editable mode:
+
 ```bash
-git clone <repo-url>
-cd wifi_deauth_detector_pkg
+git clone https://github.com/Sayodya123/Wifi-deauth-detector.git
+cd Wifi-deauth-detector
 pip install -e .
 pip install scapy
