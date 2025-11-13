@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifi_deauth_detector"
+version = "0.1.0"
+description = "Detects suspicious deauthentication/disassociation spikes in pcap files (offline analysis only)."
+authors = [{name="Sayodya Hasaranga"}]
+dependencies = ["scapy"]
